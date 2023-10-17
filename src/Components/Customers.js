@@ -9,11 +9,11 @@ export const Customers = ()=>{
 
          <div className="absolute w-16">
             <h1 className="font-bold  text-center lg:text-2xl text-4xl ">65%</h1>
-            <h1 className="text-gray-400 lg:text-xs text-xl  ">Total New customers</h1>
+            <h1 className="text-gray-400 lg:text-xs text-sm  ">Total New customers</h1>
         </div>
 
 
-    <div className="lg:w-48 lg:h-48 w-80 h-80 mx-auto my-8">
+    <div className="lg:w-48 lg:h-48 w-64 h-64 mx-auto lg:my-8 my-24">
     <DonutChart labels={["Income", "Expense", "Saving","flow"] } chartdata={[10,55,45]}  />
     </div>
     </div>

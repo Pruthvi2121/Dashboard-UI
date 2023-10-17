@@ -11,7 +11,7 @@ import { Customers } from "./Customers";
 
 export const Dashboard = ()=>{
 
-    return <>
+    return <><main className=" mx-4">
     
     <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 my-6 ">
         
@@ -31,6 +31,6 @@ export const Dashboard = ()=>{
     <Customers />
   </div>
 </div>
-  
+</main>
     </>
 }

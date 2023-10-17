@@ -29,13 +29,7 @@ function DonutChart({labels ,chartdata}){
                     'rgba(255,206,86,0.2)',
                     'rgba(54,162,235, 0.2)',
                     'rgba(255,206,86,0.2)',
-                    'rgba(255,206,86,0.2)',
-                    
-                    
-                    
-                  
-                    
-                    
+                    'rgba(255,206,86,0.2)',   
                     
                 ],
                 backgroundColor:[
@@ -45,12 +39,7 @@ function DonutChart({labels ,chartdata}){
                     'rgba(54,162,235, 1)',
                     'rgba(153,102,255, 1)',
                     'rgba(255,205,86, 1)',
-                    
-                    
-                    
-                   
-                    
-                    
+    
                     
                 ]
             }
