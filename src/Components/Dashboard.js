@@ -15,10 +15,10 @@ export const Dashboard = ()=>{
     
     <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 my-6 ">
         
-        <Card name={"Earning"} color="bg-[#6be2835b]" icon={<RiExchangeDollarLine size={"34px"} className="text-green-500"/>} percent={"37.8.%"} amount={"$198.0k"} cal={"month"}/>
-        <Card name={"Orders"} color="bg-[#861b943d]" icon={<BsFileText size={"34px"} className="text-purple-500"/>} percent={"-2.%"} amount={"$2.4k"} cal={"month"}/>
-        <Card name={"Balance"} color="bg-[#42a5d73d]" icon={<MdOutlineAccountBalanceWallet size={"34px"} className="text-blue-500"/>} percent={"-2%"} amount={"$2.4k"} cal={"month"}/>
-        <Card name={"Total Sales"} color="bg-[#d742ad3d]" icon={<HiOutlineShoppingBag size={"34px"} className="text-rose-500"/>} percent={"11%"} amount={"$89k"} cal={"month"}/>
+        <Card name={"Earning"} color="bg-[#6be2835b]" icon={<RiExchangeDollarLine  className="text-green-500 lg:h-10 lg:w-14 h-20 w-20"/>} percent={"37.8.%"} amount={"$198.0k"} cal={"month"}/>
+        <Card name={"Orders"} color="bg-[#861b943d]" icon={<BsFileText size={"34px"} className="text-purple-500 lg:h-10 lg:w-14 h-20 w-20"/>} percent={"-2.%"} amount={"$2.4k"} cal={"month"}/>
+        <Card name={"Balance"} color="bg-[#42a5d73d]" icon={<MdOutlineAccountBalanceWallet size={"34px"} className="text-blue-500 lg:h-10 lg:w-14 h-20 w-20"/>} percent={"-2%"} amount={"$2.4k"} cal={"month"}/>
+        <Card name={"Total Sales"} color="bg-[#d742ad3d]" icon={<HiOutlineShoppingBag size={"34px"} className="text-rose-500 lg:h-10 lg:w-14 h-20 w-20" />} percent={"11%"} amount={"$89k"} cal={"month"}/>
 
 
     </div> 
