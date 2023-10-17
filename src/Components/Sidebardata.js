@@ -1,9 +1,9 @@
 
 
 import { BsCardChecklist} from 'react-icons/bs'
-import { GiHouse} from 'react-icons/gi'
+
 import {BsBox} from 'react-icons/bs'
-import {TbSquareKey, TbUserSquareRounded, TbSettingsUp, TbMessageQuestion} from 'react-icons/tb'
+import {TbSquareKey,TbMoneybag, TbUserSquareRounded, TbSettingsUp, TbMessageQuestion} from 'react-icons/tb'
 import {GiReceiveMoney, GiPayMoney} from 'react-icons/gi'
 
 const color="hover:text-[#4cc69f] "
@@ -20,9 +20,14 @@ export const Sidebardata = [
                 icon:<BsBox size={size} className={color}  />,
             },
             {
+                title:"Customer",
+                path:"/customer",
+                icon:<TbUserSquareRounded size={size} className={color}  />,
+            },
+            {
                 title:"Income",
                 path:"/income",
-                icon:<TbUserSquareRounded size={size} className={color}  />,
+                icon:<TbMoneybag size={size} className={color}  />,
             },
             {
                 title:"Promote",

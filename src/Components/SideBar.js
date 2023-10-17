@@ -6,19 +6,19 @@ import { Disclosure, Transition } from "@headlessui/react";
 export const SideBar = () => {
   return (
     <>
-      <div className="w-64 bg-[#040440] text-white">
-        <div className="flex m-4 text-2xl   font-semibold items-center gap-2">
+      <div className="w-64  bg-primary text-white hidden lg:block">
+        <div className="flex m-4  text-2xl   font-semibold items-center gap-2">
           <RiSettingsLine className="mt-1" size={"30px"} />
           <h1 className="">Dashboard</h1>
         </div>
-        <ul className="text-lg flex flex-col items-center mx-4">
+        <ul className="text-lg flex flex-col items-center mx-4 h-screen">
           {
             Sidebardata.map((item, i)=>(
               <Disclosure>
             {({ open }) => (
               /* Use the `open` state to conditionally change the direction of an icon. */
               <>
-                <Disclosure.Button className="flex items-center py-2 my-2 px-4 rounded-lg w-full gap-2 hover:bg-[#8d72d92d]">
+                <Disclosure.Button className="flex items-center py-2 my-1 px-4 rounded-lg w-full gap-2 hover:bg-primary_hover">
                   <span className="text-sm">{item.icon}</span>
                   <h6 className="text-sm">{item.title}</h6>
                   <IoIosArrowForward  className={open ? 'rotate-90 transform ml-auto duration-200' : 'ml-auto duration-200'} />
@@ -39,7 +39,7 @@ export const SideBar = () => {
 
             ))
           }
-          
+
         </ul>
       </div>
 
