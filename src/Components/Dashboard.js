@@ -8,10 +8,11 @@ import { HiOutlineShoppingBag} from "react-icons/hi";
 import BarChart from "./Charts/BarChart";
 import { Overview } from "./Overview";
 import { Customers } from "./Customers";
+import { ProductSell } from "./ProductSell";
 
 export const Dashboard = ()=>{
 
-    return <><main className=" mx-4">
+    return <><main className=" mx-4 ">
     
     <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 my-6 ">
         
@@ -31,6 +32,11 @@ export const Dashboard = ()=>{
     <Customers />
   </div>
 </div>
+<div className="overflow-y-auto h-64 bg-white my-4 rounded-xl scrollbar-hide ">
+    <div >
+      <ProductSell />
+    </div>
+</div> 
 </main>
     </>
 }

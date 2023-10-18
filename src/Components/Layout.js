@@ -6,7 +6,7 @@ import { Header } from './Header';
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className='scrollbar-hide'>
       
       
       <nav>
@@ -22,7 +22,7 @@ function Layout({ children }) {
         </div>
         
       </main>
-      <Footer/>
+    
     </div>
   );
 }

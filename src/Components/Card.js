@@ -3,7 +3,7 @@ import React from "react";
 import { BiUpArrowAlt, BiDownArrowAlt} from "react-icons/bi";
 
 export const Card = ({icon,name, color, amount,percent, cal })=>{
-    return <div className="bg-white rounded-md flex aspect-[5/3] gap-2 items-center p-5 ">
+    return <div className="bg-white rounded-md flex aspect-[5/3] gap-2 items-center lg:p-5 p-2 ">
         <div className={`${color}  rounded-full lg:p-6 p-8 `} > 
             {icon}
          </div>
@@ -15,8 +15,7 @@ export const Card = ({icon,name, color, amount,percent, cal })=>{
                   {
                     percent.charAt(0)==="-"?
                     (<span className=" font-semibold items-center text-rose-600 flex"><BiDownArrowAlt className="w-4 h-4"/> {percent} </span>):
-                    (<span className=" font-semibold items-center flex text-green-600"><BiUpArrowAlt className="w-4 h-4"/> {percent} </span>)
-                   
+                    (<span className=" font-semibold items-center flex text-green-600"><BiUpArrowAlt className="w-4 h-4"/> {percent} </span>)         
                  
                   }
                  
