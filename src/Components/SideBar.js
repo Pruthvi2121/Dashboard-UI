@@ -50,13 +50,13 @@ export const SideBar = () => {
 
           
       {/* mobile */}
-      <div className="block lg:hidden fixed left-4 top-4 z-50 w-full">
+      <div className="block lg:hidden fixed left-8 top-8 z-50 w-full">
       <Popover >
       {({ open }) => (
         /* Use the `open` state to conditionally change the direction of the chevron icon. */
         <>
           <Popover.Button>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
